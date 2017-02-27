@@ -7,7 +7,7 @@ body {
 	font-family: 'PT Sans', 'Helvetica Neue', 'Ubuntu',sans-serif;
 }
 hr,h1,h2,h3,h4,h5,h6 {
-	font-family:'PT Sans', 'Helvetica Neue', 'Ubuntu', sans-serif !important; 
+	font-family:'PT Sans', 'Helvetica Neue', 'Ubuntu', sans-serif !important;
 	margin: 15px;
 }
 
@@ -45,7 +45,7 @@ a:hover {
     -o-border-radius: 50%;
 }
 
-@media(min-width: 750px) { 
+@media(min-width: 750px) {
 	#inShort{
 		display: flex;
   		flex-direction: row;
@@ -65,7 +65,7 @@ a:hover {
 }
 #content {
 	flex: auto;
-	margin-left:15px; 
+	margin-left:15px;
 	margin-right:15px;
 }
 #conRow {
@@ -84,7 +84,7 @@ a:hover {
 }
 
 #aboutHeader,
-#researchHeder,
+#researchHeader,
 #teachingHeader,
 #newsHeader,
 #menuItems,
