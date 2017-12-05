@@ -1,106 +1,1233 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Mehmet Burak Kurutmaz</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="">
-    <meta name="author" content="Mehmet Burak Kurutmaz">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS -->
-    <link rel="stylesheet" href="dist/css/kube.css">
-    <link rel="stylesheet" href="dist/css/style.css">
-    <!-- Fonts and Icons -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans:300,400,500" rel="stylesheet">
+    <meta name="description" content="">
+    <meta name="author" content="Aysun Kocak">
+
+    <title>Boğaz'da Yapay Öğrenme Yaz Okulu 2018 - Doğal Dil İşleme ve Konuşma İşleme</title>
+    <link href="img/logos/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,500" rel="stylesheet">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/hk-grotesk" type="text/css"/>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400i" rel="stylesheet">
 </head>
-<body>
+
+<body id="page-top" class="index">
+
 <!-- Navigation -->
-<div class="row" id="conRow">
-<div class="col" id="navigation">
-    <nav>
-<ul id="menuItems">
-    <li id="aboutGroup" data-component="collapse">
-        <a id="aboutHeader" href="#about" class="collapse-toggle strong">About</a>
-        	<ul id="about" class="collapse-box">
-            	<li class="underlined"><a href="index.html">Home</a></li>
-            	<li><a href="cv.pdf" target="_blank">CV</a></li>
-        	</ul>
-    </li>
-    <li id="researchGroup" data-component="collapse">
-        <a id="researchHeader" href="#research" class="collapse-toggle strong">Research</a>
-        	<ul id="research" class="collapse-box">
-            	<li><a href="publications.html">Publications</a></li>
-            	<li><a href="projects.html">Projects</a></li>
-            	<li><a href="software.html">Software</a></li>
-        	</ul>
-    </li>
-    <li id="teachingGroup" data-component="collapse">
-        <a id="teachingHeader" href="#teaching" class="collapse-toggle strong">Teaching</a>
-        	<ul id="teaching" class="collapse-box">
-            	<li><a href="courses.html">Courses</a></li>
-            	<li><a href="tutorials.html">Tutorials</a></li>
-        	</ul>
-    </li>
-    <li id="newsGroup" data-component="collapse">
-        <a id="newsHeader" href="#news" class="collapse-toggle strong">News</a>
-        	<ul id="news">
-            	<li><a href="#">#1 News</a></li>
-            	<li><a href="#">#2 News</a></li>
-            	<li><a href="#">#3 News</a></li>
-            	<li><a href="#">#4 News</a></li>
-            	<li><a href="#">#5 News</a></li>
-            	<li><a href="#">#6 News</a></li>
-            	<li><a href="#">#7 News</a></li>
-            	<li><a href="#">#8 News</a></li>
-            	<li><a href="#">#9 News</a></li>
-            	<li class="italic"><a href="news.html">More ...</a></li>
-        	</ul>
-    </li>
-</ul>
-    </nav>
-</div>
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand page-scroll" href="#">BYÖYO 2018</a>
+        </div>
 
-<!-- Content -->
-<div class="col" id="content">
-	<h2 style="margin-top: 0">Mehmet Burak Kurutmaz's Home Page</h2>
-	<hr>
-	<div id="inShort">
-		<img class="img-circle" id="profile" src="img/profile.jpg" height="170px" width="170">
-		<div>
-			<p class="strong"><i class="fa fa-user fa-lg"></i> Mehmet Burak Kurutmaz</p>
-			<p class="strong"><i class="fa fa-university fa-lg"></i> Bogazici University, Istanbul, Turkey</p>
-        	<p class="strong"><i class="fa fa-briefcase fa-lg"></i> Department of Computer Engineering</p>
-        	<p class="strong"><i class="fa fa-envelope fa-lg"></i> burak.kurutmaz@boun.edu.tr</p>
-		</div>
-	</div>
-	<hr>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="hidden">
+                    <a href="index.html#page-top"></a>
+                </li>
+                <!-- <li><a class="page-scroll" href="#page-top">ANASAYFA</a></li> -->
+                <li><a class="page-scroll" href="#hakkinda">HAKKINDA</a></li>
+                <li><a class="page-scroll" href="#egitimciler">EĞİTMENLER</a></li>
+                <li><a class="page-scroll" href="#kayit">KAYIT VE KONAKLAMA</a></li>
+                <li><a class="page-scroll" href="#program">PROGRAM</a></li>
+                <li><a class="page-scroll" href="#mekan">MEKAN</a></li>
+                <li><a class="page-scroll" href="#duzenleyiciler">DÜZENLEYİCİLER</a></li>
+                <li><a class="page-scroll" href="#sponsorlar">SPONSORLAR</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-	<h3 class="underlined">Academic Interests</h3>
-	<ul >
-		<li>Lorem ipsum dolar sit amet.</li>
-		<li>Lorem ipsum dolar sit amet.</li>
-		<li>Lorem ipsum dolar sit amet.</li>
-		<li>Lorem ipsum dolar sit amet.</li>
-	</ul>
+<!-- Header -->
+<header>
+    <div class="intro-text">
+        <div class="intro-heading">Boğaz'da Yapay Öğrenme<br>
+            <small>İsmail Arı Yaz Okulu 2018</small> <br>
+            <hr>
+            <small>Doğal Dil ve Konuşma İşleme</small>
+        </div>
+        <div class="intro-lead-in">
+            <small><i>2-6 Temmuz 2018, Bebek, İstanbul</i></small>
+        </div>
+    </div>
+</header>
 
-	 <h3 class="underlined">Brief Biography</h3>
-	 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-	 <hr>
-	 <h3 class="underlined">Contact:</h3>
+<!-- Kurumsal -->
+<aside class="clients">
+    <div class="container">
+        <div class="row row-eq-height">
+                <div class="col-sm-1">
+                </div>
+                <div class="col-sm-2">
+                    <a target="_blank" href="http://www.boun.edu.tr">
+                        <img src="img/logos/bogazici.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-5">
+                    <a target="_blank" href="http://www.bilimakademisi.org">
+                        <img src="img/logos/bilimakademisi.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-1">
+                </div>
+        </div>
+    </div>
+</aside>
 
-	 <ul>
-	 	<li><strong>Email: </strong>burak.kurutmaz@boun.edu.tr</li>
-	 	<li><strong>Office: </strong>Lorem ipsum dolar sit amet.</li>
-	 	<li><strong>Adress: </strong>Lorem ipsum dolar sit amet.</li>
-	 </ul>
 
-</div>
-</div>
-    <!-- Scripts -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="dist/js/kube.js"></script>
-    <script src="dist/js/main.js"></script>
+<!-- Hakkinda -->
+<section id="hakkinda" class="bg-dark-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="color:#134b8e">HAKKINDA</h2>
+                <h3 class="section-subheading">Boğaz'da Yapay Öğrenme İsmail Arı Yaz Okulu 2018</h3>
+                <h4 class="section-subheading">2 Temmuz 2018 Pazartesi - 6 Temmuz 2018 Cuma</h4>
+                <h4 class="section-subheading">Bebek, İstanbul</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <p>Bu yıl, 2-6 Temmuz tarihlerinde İstanbul’da düzenlenecek olan <strong><a
+                    href="index.html">Boğaz'da Yapay Öğrenme Yaz Okulu
+                2018</a></strong> adlı lisansüstü yaz okulunu duyurmaktan mutluluk duymaktayız. Bu yaz okulu, <a
+                    href="http://bilimakademisi.org"><strong>Bilim Akademisi</strong></a> şemsiyesi altında, <a
+                    href="http://www.boun.edu.tr"><strong>Boğaziçi Üniversitesi</strong></a> tarafından
+                gerçekleştirilmektedir.</p>
+            <p>Bu yaz okulu, geçtiğimiz yıl düzenlenen <a href="https://byoyo2017.vision.cs.hacettepe.edu.tr"><strong>Bozkırda 
+                Yapay Öğrenme Yaz Okulu 2017</strong></a>'nin devamı olup bu yılki temalar <strong>doğal dil işleme</strong> 
+                ve <strong>konuşma işleme</strong> olarak belirlenmiştir. Bu alanlardaki araştırmalara ilgi duyan
+                öğrenci ve öğretim üyeleri ya da endüstride, teknokentlerde ilgili projelerde çalışan kişiler yaz
+                okulunun hedef kitlesini oluşturmaktadır. Yaz okulunun amacı, bu alanlarda araştırma yapmak için
+                gerekli olan temel bilgileri öğretmek, alandaki son gelişmeler hakkında öğrencileri bilgilendirmek, tez
+                ve proje konularını tartışmak, ve katılımcılarla alan uzmanları arasında etkileşim sağlamaktır.</p>
+
+            <p>Toplam dört gün sürecek yaz okulunda, doğal dil işleme ve konuşma işleme alanlarında çalışan seçkin
+                araştırmacılar tarafından seminerler verilecektir. Konuşma aralarında, öğrenciler de araştırmalarını ve
+                tez çalışmalarını birer poster halinde, görüş alışverişine fırsat verecek şekilde sunma imkanına sahip
+                olacaktır. Bu sayede öğretim üyeleri ve öğrencilerin tanışıp bilgi alışverişinde bulunacakları bir ortam
+                yaratılmış olacaktır.</p>
+            <p>Yaz okulunda şu konularda konuşmalar yapılacaktır: </p>
+            <ul>
+                <ul>
+                    <li>Yapay Öğrenme</li>
+                    <li>Derin Öğrenme</li>
+                    <li>Evrişimli Sinir Ağları ve Yinelemeli Sinir Ağları</li>
+                    <li>Geniş Marjinli Sınıflandırma</li>
+                    <li>Derin Üretici Ağlar</li>
+                    <li>Kısıtlı Gözetimle Öğrenme</li>
+                    <li>Metrik öğrenme</li>
+                    <li>Hareket Analizi</li>
+                    <li>Yüz Analizi</li>
+                    <li>İHA Görü Yöntemleri</li>
+                    <li>Robotik ve Bilgisayarlı Görü Uygulamaları</li>
+                </ul>
+            </ul>
+
+
+        </div>
+    </div>
+</section>
+
+<!-- Egitimciler  -->
+<section id="egitimciler">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="color:#134b8e">EĞİTMENLER</h2>
+                <h3></h3>
+                <p></p>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="http://www.cs.bilkent.edu.tr/~gcinbis/" target="_blank"><img src="img/gokberkcinbis.png"
+                                                                                          class="img-responsive img-circle"
+                                                                                          alt=""></a>
+                    <h4><a href="http://www.cs.bilkent.edu.tr/~gcinbis/" target="_blank">Gökberk Cinbiş</a></h4>
+                    <p class="text-muted">Bilkent Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+
+                    <a href="http://mlcv.ogu.edu.tr/hakan.html" target="_blank"><img src="img/hakancevikalp.png"
+                                                                                     class="img-responsive img-circle"
+                                                                                     alt=""></a>
+                    <h4><a href="http://mlcv.ogu.edu.tr/hakan.html" target="_blank">Hakan Çevikalp</a></h4>
+                    <p class="text-muted">Eskişehir Osmangazi Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="https://staff.fnwi.uva.nl/h.dibeklioglu/" target="_blank"><img
+                            src="img/hamdidibeklioglu.png" class="img-responsive img-circle" alt=""></a>
+                    <h4><a href="https://staff.fnwi.uva.nl/h.dibeklioglu/" target="_blank">Hamdi Dibeklioğlu</a></h4>
+                    <p class="text-muted">Delft Teknoloji Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="http://vpa.sabanciuniv.edu/modules/aytulercil/" target="_blank"><img
+                            src="img/aytulercil.jpg" class="img-responsive img-circle" alt=""></a>
+                    <h4><a href="http://vpa.sabanciuniv.edu/modules/aytulercil/" target="_blank">Aytul Erçil</a></h4>
+                    <p class="text-muted">Sabancı Üniversitesi</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="http://www.bernardghanem.com" target="_blank"><img src="img/bernardghanem.png"
+                                                                                class="img-responsive img-circle"
+                                                                                alt=""></a>
+                    <h4><a href="http://www.bernardghanem.com" target="_blank">Bernard Ghanem</a></h4>
+                    <p class="text-muted">Kral Abdullah Bilim ve Teknoloji Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="http://www.kovan.ceng.metu.edu.tr/~sinan/" target="_blank"><img src="img/sinankalkan.png"
+                                                                                             class="img-responsive img-circle"
+                                                                                             alt=""></a>
+                    <h4><a href="http://www.kovan.ceng.metu.edu.tr/~sinan/" target="_blank">Sinan Kalkan</a></h4>
+                    <p class="text-muted">Orta Doğu Teknik Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="https://faculty.ozyegin.edu.tr/melihkandemir" target="_blank"><img
+                            src="img/melihkandemir.png" class="img-responsive img-circle" alt=""></a>
+                    <h4><a href="https://faculty.ozyegin.edu.tr/melihkandemir" target="_blank">Melih Kandemir</a></h4>
+                    <p class="text-muted">Özyeğin Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="http://koray.kavukcuoglu.org" target="_blank"><img src="img/koraykavukcuoglu.png"
+                                                                                class="img-responsive img-circle"
+                                                                                alt=""></a>
+                    <h4><a href="http://koray.kavukcuoglu.org" target="_blank">Koray Kavukçuoğlu</a></h4>
+                    <p class="text-muted">Google DeepMind</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="http://web.itu.edu.tr/sariel/" target="_blank"><img src="img/sanemsariel.png"
+                                                                                 class="img-responsive img-circle"
+                                                                                 alt=""></a>
+                    <h4><a href="http://web.itu.edu.tr/sariel/" target="_blank">Sanem Sarıel</a></h4>
+                    <p class="text-muted">İstanbul Teknik Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="http://www.kovan.ceng.metu.edu.tr/~erol/Home.html" target="_blank"><img
+                            src="img/erolsahin.png" class="img-responsive img-circle" alt=""></a>
+                    <h4><a href="http://www.kovan.ceng.metu.edu.tr/~erol/Home.html" target="_blank">Erol Şahin</a></h4>
+                    <p class="text-muted">Orta Doğu Teknik Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="http://ozansener.net" target="_blank"><img src="img/ozansener.png"
+                                                                        class="img-responsive img-circle" alt=""></a>
+                    <h4><a href="http://ozansener.net" target="_blank">Ozan Şener</a></h4>
+                    <p class="text-muted">Stanford Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="https://cmpe.boun.edu.tr/~emre/index.html" target="_blank"><img src="img/emreugur.png"
+                                                                                             class="img-responsive img-circle"
+                                                                                             alt=""></a>
+                    <h4><a href="https://cmpe.boun.edu.tr/~emre/index.html" target="_blank">Emre Uğur</a></h4>
+                    <p class="text-muted">Boğaziçi Üniversitesi</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="http://www.ceng.metu.edu.tr/~vural" target="_blank"><img src="img/fatosyarmanvural.png"
+                                                                                      class="img-responsive img-circle"
+                                                                                      alt=""></a>
+                    <h4><a href="http://www.ceng.metu.edu.tr/~vural" target="_blank">Fatoş Yarman Vural</a></h4>
+                    <p class="text-muted">Orta Doğu Teknik Üniversitesi</p>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="guest-speaker">
+                    <a href="http://www.irc.atr.jp/~zeynep/" target="_blank"><img src="img/zeynepyucel.png"
+                                                                                  class="img-responsive img-circle"
+                                                                                  alt=""></a>
+                    <h4><a href="http://www.irc.atr.jp/~zeynep/" target="_blank">Zeynep Yücel</a></h4>
+                    <p class="text-muted">Okayama Üniversitesi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Kayit ve Konaklama  -->
+<section id="kayit" class="bg-dark-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="color:#134b8e">KAYIT VE KONAKLAMA</h2>
+<h3 class="section-subheading">Son Başvuru Tarihi: 15 Haziran 2018 </h3>
+                    
+                    <p class="text-center">
+					<button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#registerForm">
+                      Kayıt Ol
+                    </button>
+					</p>
+									
+                    <p>Yaz okuluna katılım ücreti 80TL olacaktır. Bu ücrete öğlen yemekleri ve kokteyl de dahildir. İhtiyaç duyan katılımcıların konaklamaları Boğaziçi Üniversitesi Güney Kampüsü öğrenci yurtlarında ücret karşılığı gerçekleşecektir.</p>	
+                    
+                    <p><strong>Resmi kayıt işlemleri ile ilgili izlemeniz gereken adımlar email yoluyla iletilmiştir. Eğer böyle bir email almadıysanız lütfen bizimle iletişime geçiniz.</strong></p>
+                    
+                    <p> İletişim: <a href="mailto:byoyo2018@boun.edu.tr">byoyo2018@boun.edu.tr</a> </p>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="registerForm" tabindex="-1" role="dialog" aria-labelledby="registerLongTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header row bg-dark-gray">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-10">
+                <center>
+                    <h4 class="intro-lead-in" id="registerTitle" style="color:#134b8e"><strong>BAŞVURU FORMU</strong></h4>
+                </center>
+            </div>
+
+            <div class="col-lg-1">      
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <h4 aria-hidden="true">&times;</h4>
+                </button>
+            </div>
+          </div>
+          <div class="modal-body">
+            <form id="contact-form" method="post" action="https://docs.google.com/forms/d/e/1FAIpQLSdnumNtiiB6nKblWwUwxARcAkalgy-I0KmNTBrdSHAgp8Vs4g/formResponse" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+                            
+                            <div class="panel panel-default">
+                            <div class="panel-heading">
+                            <h3 class="panel-title" style="color:#134b8e"><strong>KİŞİSEL BİLGİLER</strong></h3>
+                            </div>
+                            <div class="panel-body">
+                                
+                            <div class="row">                         
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Ad</label>
+                                        <input id="form_name" type="text" name="entry.2005620554" class="form-control" placeholder="Lütfen adınızı giriniz" required="required" data-error="Lütfen bu alanı doldurun.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Soyad</label>
+                                        <input id="form_lastname" type="text" name="entry.991240573" class="form-control" placeholder="Lütfen soyadınızı giriniz" required="required" data-error="Lütfen bu alanı doldurun.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">E-posta</label>
+                                        <input id="form_email" type="email" name="emailAddress" class="form-control" placeholder="Lütfen e-posta adresinizi giriniz" required="required" data-error="Lütfen geçerli bir e-posta adresi giriniz.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Cep Telefonu</label>
+                                        <input id="form_phone" type="number" name="entry.1065046570" class="form-control" placeholder="5xxxxxxxxx" required="required">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            
+                            <div class="panel panel-default">
+                            <div class="panel-heading">
+                            <h3 class="panel-title" style="color:#134b8e"><strong>ÖĞRENİM BİLGİLERİ</strong></h3>
+                            </div>
+                            <div class="panel-body">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="form_uni">Üniversite / Kurum</label>
+                                        <input id="form_uni" type="text" name="entry.1166974658" class="form-control" placeholder="Lütfen üniversite/kurum bilginizi giriniz" required="required">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="form_dept">Bölüm</label>
+                                        <input id="form_dept" type="text" name="entry.839337160" class="form-control" placeholder="Lütfen bölümünüzü giriniz" required="required">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="form_degree">En Son Alınan Akademik Derece</label>
+                                        <select class="form-control" id="form_degree" name="entry.390469439" required="required">
+                                            <option value="Lisans">Lisans</option>
+                                            <option value="Yüksek Lisans">Yüksek Lisans</option>
+                                            <option value="Doktora">Doktora</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_bio">Özgeçmiş</label>
+                                        <textarea id="form_bio" name="entry.873905955" class="form-control" placeholder="Özgeçmişinizi kısaca belirtiniz" rows="4" required="required" data-error="Lütfen bu alanı doldurun."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>                              
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_mot">Motivasyon ve Amaç</label>
+                                        <textarea id="form_mut" name="entry.4821520" class="form-control" placeholder="Bu yaz okuluna katılmadaki motivasyon ve amacınızı kısaca belirtiniz" rows="4" required="required" data-error="Lütfen bu alanı doldurun."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>                              
+                            </div>
+                            </div>
+
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <center>
+                                    <input type="submit" class="btn btn-danger btn-send" value="Başvuruyu Tamamla">
+                                    </center>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </form></div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<!-- Program  -->
+<section id="program">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="color:#134b8e">PROGRAM</h2>
+                <p></p>
+            </div>
+        </div>
+        <div class="row">
+            <table class="table table-bordered">
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_pl"></i></td>
+                    <td>Özel konuşmalar</td>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_ml"></i></td>
+                    <td>Derin öğrenme konuşmaları</td>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_cv"></i></td>
+                    <td>Bilgisayarlı görü konuşmaları</td>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_rb"></i></td>
+                    <td>Robotbilim konuşmaları</td>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_in"></i></td>
+                    <td>Endüstri konuşmaları</td>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Sosyal etkinlikler</td>
+                </tr>
+            </table>
+
+            <h4><i class="fa fa-calendar-o speaker-list-icon text-muted"></i> 2 Temmuz
+                <small>(Pazartesi)</small>
+            </h4>
+            <table class="table table-bordered">
+                <tr>
+                    <th colspan="2" class="schedule-th" style="color:#134b8e"><center>Konuşma İşleme Günü</center></th>
+                    <th class="schedule-th schedule-th-fixed-width">Başlangıç</th>
+                    <th class="schedule-th schedule-th-fixed-width">Bitiş</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Açılış konuşması
+                        <small><i>Pınar Duygulu Şahin</i></small>
+                    </td>
+                    <td>09:00</td>
+                    <td>09:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_ml"></i></td>
+                    <td><a href="#sinankalkan" data-toggle="collapse">Derin Öğrenmeye Giriş</a>
+                        <small><i>Sinan Kalkan</i></small>
+                        <div id="sinankalkan" class="collapse">
+                            <small>Derin öğrenme, temelde gelişen teknoloji, anlamlı veri miktarlarındaki artış ve yeni keşfedilen öğrenme yöntemleri sayesinde, insan performansının geçilemeyeceği düşünülen pek çok zor problemde insan performansını geçmiş, diğer problemlerde ise mevcut yöntemlere göre şaşırtıcı derecede üstün performanslar üretmiş; bilgisayarlı görü ve örüntü tanıma başta olmak üzere, dil işleme, ses tanıma, ses üretme, planlama / kontrol vb. pek çok alanda baskın yöntem haline gelmiştir. Bu konuşmada, derin öğrenme yöntemlerini anlamaya ve kullanmaya temel oluşturmak üzere; kısa bir derin öğrenme tarihinden ve derin öğrenme yöntemlerinin özellikleri, yetenekleri ve zorluklarının tartışılmasından sonra genel olarak makine öğrenme ve yapay sinir ağları ile devam edilecek ve temel derin öğrenme yöntemleri işlenecektir.</small>
+                        </div>
+                    </td>
+                    <td>09:30</td>
+                    <td>10:40</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Çay/Kahve Molası</td>
+                    <td>10:40</td>
+                    <td>11:00</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_cv"></i></td>
+                    <td><a href="#fatosyarmanvural" data-toggle="collapse">Bilgisayarlı Görüye Giriş</a>
+                        <small><i>Fatoş Yarman Vural</i></small>
+                        <div id="fatosyarmanvural" class="collapse">
+                            <small> Bilgisayarlı görü, görebilen makineler geliştiren bilim dalıdır. Bu makineler canlılardaki görme sistemlerinden esinlenerek oluşturulur. Canlılar bir nesneyi, nesneden yansıyan ışık sinyalleri olarak parça parça algılayabilirler. Canlılardaki görme sistemleri, algılanan sinyalleri birleştirerek nesnenin bir yansımasını üretir. Yani; görme işlemi sinyallerle önce parçalanıp sonra bir araya getirilen nesnenin "gerçeğe yakın" bir yansımasını elde etmekten ibarettir. Bu konuşmada, adına piksel dediğimiz anlamsız görüntü parçalarını birleştirerek anlamlı kavramlara dönüştüren yöntemlerden bahsedeceğiz. Örneğin; birbirine benzemeyen pikselleri birleştirerek kenar kavramını oluşturacağız. Birbirine benzeyen pikselleri Gauss ya da Gabor fitreleri ile bütünleştirerek nesneye ait renk ve desen özniteliklerini tanımlayacağız. Bu öznitelikleri, fonksiyon öğrenen bir algoritma ile öznitelik uzayından kavram uzayına gönderip, bu uzayda nesnenin bir yansımasını üreteceğiz. </small>
+                        </div>
+                    </td>
+                    <td>11:00</td>
+                    <td>12:10</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td> Öğle Yemeği ve Dinlenme</td>
+                    <td>12:10</td>
+                    <td>13:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_pl"></i></td>
+                    <td><a href="#bernardghanem" data-toggle="collapse">Hareket Analizi, İHA görü yöntemleri</a>
+                        <small><i>Bernard Ghanem</i></small>
+                        <div id="bernardghanem" class="collapse">
+                            <small> In this talk, I will focus on two popular research topics in computer vision, namely large-scale human activity understanding in video and using simulated data for various computer vision applications. I will also highlight some of the recent efforts that the Image and Video Understanding Lab (IVUL) at KAUST has made in both domains, as well as, provide what I believe to be exciting avenues for future research. (1) Regarding activity understanding, I will present the main research challenges facing this booming field and emphasize our deep learning based work on handling the large-scale nature of the problem, manifested in the large number of videos to be processed, the large number of activity classes to be learned, and their distribution. For example, with properly designed deep models and a new large-scale activity dataset (ActivityNet), IVUL has shown that deep recurrent networks can be trained to detect the locations of human activities of interest in a long video in a single pass at rates exceeding 10x real-time. (2) Regarding the use of simulated data in computer vision, I will introduce our newly developed simulator (called UE4Sim), which is based on the UE4 open-source computer game engine. Because of its photo-realism, versatility, and the ease in which ground truth can be generated from it, this simulator enables a multitude of computer vision and learning based applications, ranging from self-driving to tracking, crowd analysis, and 2D/3D scene understanding. Specifically, I will describe how UE4Sim can be used to train a self-driving car and a self-racing UAV, as well as, evaluate tracking methods in near real-world scenarios. </small>
+                        </div>
+                    </td>
+                    <td>13:30</td>
+                    <td>14:40</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_ml"></i></td>
+                    <td><a href="#gokberkcinbis1" data-toggle="collapse">Evrişimsel ve Yinelemeli Sinir Ağları</a>
+                        <small><i>Gökberk Cinbiş</i></small>
+                        <div id="gokberkcinbis1" class="collapse">
+                            <small> Evrişimsel sinir ağları ve yinelemeli sinir ağları hem derin öğrenmenin yaygınlaşması ve başarısında, hem de modern bilgisayarlı görü ve doğal dil işleme araştırmalarında temel bir öneme sahiptir. Evrişimsel sinir ağlarındaki son yıllardaki gelişmeler ile, pekçok bilgisayarlı görü probleminde başarımın oldukça arttırılması mümkün olmuştur. Yinelemeli sinir ağları ise, özellikle dizisel verilerin işlenmesinde çok etkin modellerdir. Bu konuşmada, evrişimsel sinir ağları ve yinelemeli sinir ağlarının temelleri anlatılacaktır. </small>
+                        </div>
+                    </td>
+                    <td>14:40</td>
+                    <td>15:50</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Çay/Kahve Molası</td>
+                    <td>15:50</td>
+                    <td>16:10</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_pl"></i></td>
+                    <td><a href="#koraykavukcuoglu" data-toggle="collapse">Derin Pekiştirmeli Öğrenme</a>
+                        <small><i>Koray Kavukçuoğlu</i></small>
+                        <div id="koraykavukcuoglu" class="collapse">
+                            <small> Son yillarda bilgisayarli goru, konusma ve dil isleme alanlarinda derin ogrenme teknikleri bir cok standard isleme modellerinin yerini almistir. Ayni zamanda, derin pekistirmeli ogrenme alanindaki gelismeler sayesinde karmasik ve gercekci problemleri cozme kabiliyetine sahip sistemler ogrenebiliyoruz. Bu konusmada, derin pekistirmeli ogrenme sistemlerinin temel modelleri tanitilacak ve buyuk olcekli derin pekistirmeli ogrenme modelleri uzerinde durulacaktir. Son olarak guncel bazi modeller ve onemli arastirma problemleri tartisilacaktir. </small>
+                        </div>
+                    </td>
+                    <td>16:10</td>
+                    <td>17:20</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_ml"></i></td>
+                    <td><a href="#melihkandemir" data-toggle="collapse">Olasılıksal Derin Öğrenme</a>
+                        <small><i>Melih Kandemir</i></small>
+                        <div id="melihkandemir" class="collapse">
+                            <small> Günümüzde yapay öğrenme alanının merkezinde bulunan derin öğrenmenin model seçimi, aşırı uyum ve aşırı veri ihtiyacı gibi üç temel problemi mevcuttur. Olasılıksal yaklaşım, bu problemlerin her birisi için ilkeli çözümler sunmaktadır. Olasılıksal derin öğrenmede sinir ağırlıklarına öncül dağılımlar atanarak öğrenme süreci bir ardıl dağılım çıkarsama problemine dönüştürülür. Varyasyonel çıkarsama, Markov Zinciri Monte Carlo örneklemesi, beklenen değer saçılımı gibi ardıl dağılım çıkarsama yaklaşımlarının derin sinir ağlarına en etkin şekilde nasıl uyarlanabileceği üzerine halen yoğun olarak çalışılan bir araştırma konusudur. Bu konuşmada temel olasılıksal çıkarsama yaklaşımları tanıtılacak, bu yaklaşımların derin sinir ağlarına uygulanması örneklenecek ve olasılıksal derin öğrenme alanındaki son gelişmelerin bir derlemesi sunulacaktır. </small>
+                        </div>
+                    </td>
+                    <td>17:20</td>
+                    <td>18:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Açılış Kokteyli</td>
+                    <td>19:00</td>
+                    <td>20:30</td>
+                </tr>
+            </table>
+            <br/>
+
+            <h4><i class="fa fa-calendar-o speaker-list-icon text-muted"></i> 3 Temmuz
+                <small>(Salı)</small>
+            </h4>
+            <table class="table table-bordered">
+                <tr>
+                    <th colspan="2" class="schedule-th" style="color:#134b8e"><center>Doğal Dil İşleme Günü</center></th>
+                    <th class="schedule-th schedule-th-fixed-width">Başlangıç</th>
+                    <th class="schedule-th schedule-th-fixed-width">Bitiş</th>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_rb"></i></td>
+                    <td><a href="lectures.html#emreugur2">Robotbilime Giriş</a>
+                        <small><i>Emre Uğur</i></small>
+                    </td>
+                    <td>09:00</td>
+                    <td>10:10</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Çay/Kahve Molası</td>
+                    <td>10:10</td>
+                    <td>10:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_cv"></i></td>
+                    <td><a href="lectures.html#hakancevikalp">Nesne Tespiti</a>
+                        <small><i>Hakan Çevikalp</i></small>
+                    </td>
+                    <td>10:30</td>
+                    <td>11:40</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Posterler, Öğle Yemeği ve Dinlenme</td>
+                    <td>11:40</td>
+                    <td>13:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_rb"></i></td>
+                    <td><a href="lectures.html#emreugur1">Bilişsel Robotbilim</a>
+                        <small><i>Emre Uğur</i></small>
+                    </td>
+                    <td>13:30</td>
+                    <td>14:40</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_rb"></i></td>
+                    <td><a href="lectures.html#erolsahin">Hareket Planlama</a>
+                        <small><i>Erol Şahin</i></small>
+                    </td>
+                    <td>14:40</td>
+                    <td>15:50</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Çay/Kahve Molası</td>
+                    <td>15:50</td>
+                    <td>16:10</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_ml"></i></td>
+                    <td><a href="lectures.html#erkuterdem">Derin Üretici Ağlar</a>
+                        <small><i>Erkut Erdem</i></small>
+                    </td>
+                    <td>16:10</td>
+                    <td>17:20</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_cv"></i></td>
+                    <td><a href="lectures.html#hamdidibeklioglu">Yüz Analizi</a>
+                        <small><i>Hamdi Dibeklioğlu</i></small>
+                    </td>
+                    <td>17:20</td>
+                    <td>18:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Gala yemeği</td>
+                    <td>19:00</td>
+                    <td>21:30</td>
+                </tr>
+            </table>
+            <br/>
+
+            <h4><i class="fa fa-calendar-o speaker-list-icon text-muted"></i> 4 Temmuz
+                <small>(Çarşamba)</small>
+            </h4>
+            <table class="table table-bordered">
+                <tr>
+                    <th colspan="2" class="schedule-th" style="color:#134b8e"><center>Biyoenformatik Günü</center></th>
+                    <th class="schedule-th schedule-th-fixed-width">Başlangıç</th>
+                    <th class="schedule-th schedule-th-fixed-width">Bitiş</th>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_rb"></i></td>
+                    <td><a href="lectures.html#sanemsariel">Robotlarda Görme ve Algılama</a>
+                        <small><i>Sanem Sarıel</i></small>
+                    </td>
+                    <td>09:00</td>
+                    <td>10:10</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Çay/Kahve Molası</td>
+                    <td>10:10</td>
+                    <td>10:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_rb"></i></td>
+                    <td><a href="lectures.html#zeynepyucel">Sosyal Etkileşimli Robotlar</a>
+                        <small><i>Zeynep Yücel</i></small>
+                    </td>
+                    <td>10:30</td>
+                    <td>11:40</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_pl"></i></td>
+                    <td>Bilim Akademisi Tanıtımı</td>
+                    <td>11:40</td>
+                    <td>12:00</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Posterler, Öğle Yemeği ve Dinlenme</td>
+                    <td>12:00</td>
+                    <td>13:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_ml"></i></td>
+                    <td><a href="lectures.html#ozansener">Derin Öğrenmenin Geometrisi</a>
+                        <small><i>Ozan Şener</i></small>
+                    </td>
+                    <td>13:30</td>
+                    <td>14:40</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_rb"></i></td>
+                    <td><a href="lectures.html#sinankalkan2">Robotlarda Bağlam</a>
+                        <small><i>Sinan Kalkan</i></small>
+                    </td>
+                    <td>14:40</td>
+                    <td>15:50</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Çay/Kahve Molası</td>
+                    <td>15:50</td>
+                    <td>16:10</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_cv"></i></td>
+                    <td><a href="lectures.html#gokberkcinbis2">Kısıtlı Gözetimle Öğrenme</a>
+                        <small><i>Gökberk Cinbiş</i></small>
+                    </td>
+                    <td>16:10</td>
+                    <td>17:20</td>
+                </tr>
+            </table>
+            <br/>
+
+            <h4><i class="fa fa-calendar-o speaker-list-icon text-muted"></i> 5 Temmuz
+                <small>(Perşembe)</small>
+            </h4>
+            <table class="table table-bordered">
+                <tr>
+                    <th colspan="2" class="schedule-th" style="color:#134b8e"><center>Endüstri Günü</center></th>
+                    <th class="schedule-th schedule-th-fixed-width">Başlangıç</th>
+                    <th class="schedule-th schedule-th-fixed-width">Bitiş</th>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_in"></i></td>
+                    <td><a href="lectures.html#aytulercil">Girişimci Akademisyenlik</a>
+                        <small><i>Aytül Erçil</i></small>
+                    </td>
+                    <td>09:00</td>
+                    <td>09:45</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_in"></i></td>
+                    <td><a href="https://www.stm.com.tr">STM</a>
+                        <small><i>Umut Demirezen</i></small>
+                    </td>
+                    <td>09:45</td>
+                    <td>10:00</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_in"></i></td>
+                    <td><a href="http://www.milsoft.com.tr">MilSOFT</a>
+                        <small><i>Ali Gökalp Peker ve Buğra Hasbek</i></small>
+                    </td>
+                    <td>10:00</td>
+                    <td>10:15</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_in"></i></td>
+                    <td><a href="https://sentiosports.com">Sentio Sports Analytics</a>
+                        <small><i>Serdar Alemdar</i></small>
+                    </td>
+                    <td>10:15</td>
+                    <td>10:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_in"></i></td>
+                    <td><a href="http://www.esensi.com.tr/tr/">Esen Sistem Entegrasyon</a>
+                        <small><i>Erol Tunalı</i></small>
+                    </td>
+                    <td>10:30</td>
+                    <td>10:45</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Çay/Kahve Molası</td>
+                    <td>10:45</td>
+                    <td>11:05</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_in"></i></td>
+                    <td><a href="http://www.sim-tek.com.tr">SİMTEK</a>
+                        <small><i>Gül Meltem Kulalı</i></small>
+                    </td>
+                    <td>11:05</td>
+                    <td>11:20</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_in"></i></td>
+                    <td><a href="http://www.leomuhendislik.com">Leo Mühendislik</a>
+                        <small><i>Samet Kütük</i></small>
+                    </td>
+                    <td>11:20</td>
+                    <td>11:35</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_in"></i></td>
+                    <td><a href="http://vispera.co">Vispera</a>
+                        <small><i>Aytül Erçil</i></small>
+                    </td>
+                    <td>11:35</td>
+                    <td>11:50</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_in"></i></td>
+                    <td><a href="http://www.arcelik.com.tr">Arçelik</a>
+                        <small><i>Güven Orkun Tanık</i></small>
+                    </td>
+                    <td>11:50</td>
+                    <td>12:05</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Kapanış</td>
+                    <td>12:05</td>
+                    <td>12:10</td>
+                </tr>
+            </table>
+            <br/>
+
+            <h4><i class="fa fa-calendar-o speaker-list-icon text-muted"></i> 6 Temmuz
+                <small>(Cuma)</small>
+            </h4>
+            <table class="table table-bordered">
+                <tr>
+                    <th colspan="2" class="schedule-th" style="color:#134b8e"><center>Özerk Sürüş Teknolojileri Günü</center></th>
+                    <th class="schedule-th schedule-th-fixed-width">Başlangıç</th>
+                    <th class="schedule-th schedule-th-fixed-width">Bitiş</th>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_rb"></i></td>
+                    <td><a href="lectures.html#emreugur2">Robotbilime Giriş</a>
+                        <small><i>Emre Uğur</i></small>
+                    </td>
+                    <td>09:00</td>
+                    <td>10:10</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Çay/Kahve Molası</td>
+                    <td>10:10</td>
+                    <td>10:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_cv"></i></td>
+                    <td><a href="lectures.html#hakancevikalp">Nesne Tespiti</a>
+                        <small><i>Hakan Çevikalp</i></small>
+                    </td>
+                    <td>10:30</td>
+                    <td>11:40</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Posterler, Öğle Yemeği ve Dinlenme</td>
+                    <td>11:40</td>
+                    <td>13:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_rb"></i></td>
+                    <td><a href="lectures.html#emreugur1">Bilişsel Robotbilim</a>
+                        <small><i>Emre Uğur</i></small>
+                    </td>
+                    <td>13:30</td>
+                    <td>14:40</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_rb"></i></td>
+                    <td><a href="lectures.html#erolsahin">Hareket Planlama</a>
+                        <small><i>Erol Şahin</i></small>
+                    </td>
+                    <td>14:40</td>
+                    <td>15:50</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Çay/Kahve Molası</td>
+                    <td>15:50</td>
+                    <td>16:10</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_ml"></i></td>
+                    <td><a href="lectures.html#erkuterdem">Derin Üretici Ağlar</a>
+                        <small><i>Erkut Erdem</i></small>
+                    </td>
+                    <td>16:10</td>
+                    <td>17:20</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_cv"></i></td>
+                    <td><a href="lectures.html#hamdidibeklioglu">Yüz Analizi</a>
+                        <small><i>Hamdi Dibeklioğlu</i></small>
+                    </td>
+                    <td>17:20</td>
+                    <td>18:30</td>
+                </tr>
+                <tr>
+                    <td class="schedule-icon-td"><i class="fa fa-circle timeTableCircle timeTableCircle_sc"></i></td>
+                    <td>Gala yemeği</td>
+                    <td>19:00</td>
+                    <td>21:30</td>
+                </tr>
+            </table>
+            <br/>
+        </div>
+    </div>
+</section>
+
+<!-- Mekan -->
+<section id="mekan" class="bg-dark-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="color:#134b8e">MEKAN</h2>
+                <h3 class="section-subheading" style="color:#134b8e">Harita ve Ulaşım</h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Map -->
+            <div class="col-md-7">
+                <div id="map_info" class="map_info">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3007.350945926487!2d29.04816119111448!3d41.083178155636716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x67b8c8b204a4e43d!2sAlbert+Long+Hall!5e0!3m2!1str!2str!4v1510587235323"
+                            width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+
+            <div class="col-md-5">
+                <p>Boğaz'da Yapay Öğrenme Yaz Okulu 2018 Boğaziçi Üniversitesi <a
+                        href="https://harita.boun.edu.tr">Güney Kampüsü</a>
+                    içinde yer alan <strong>Boğaziçi Üniversitesi Kültür Merkezi
+                    </strong>’nde (<strong>Albert Long Hall</strong>) yapılacaktır.</p>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Map -->
+            <div class="col-md-7">
+                <div id="dorm_map_info" class="map_info">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d751.8366262781512!2d29.05260292922188!3d41.08327519870583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cac9f8c2cecfd7%3A0xe1ab7195864fc367!2sBirinci+Erkek+Yurdu!5e0!3m2!1str!2str!4v1510587100598"
+                            width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <p>Katılımcılar Boğaziçi Üniversitesi Güney Kampüsü öğrenci yurtlarında konaklayacaklardır.
+                </p>
+                <p>Boğaziçi Üniversitesi'ne ulaşım için aşağıdaki bağlantıyı kullanabilirsiniz: <a
+                        href="http://www.boun.edu.tr/tr_TR/Content/Kampus_Yasami/KampusUlasimPark">http://www.boun.edu.tr/tr_TR/Content/Kampus_Yasami/KampusUlasimPark</a>
+                </p>
+            </div>
+        </div>
+        <!-- Ring -->
+        <div class="row">
+            <h3 class="section-subheading" style="color:#134b8e" align="center">Mekik Servisleri</h3>
+            <p>Aşağıdaki güzergahlarda mekik servisi verilmektedir:
+            <ul>
+                <ul>
+                    <li>Kuzey Kampüs – Güney Kampüs</li>
+                    <li>Hisar Kampüs – Güney Kampüs</li>
+                    <li>Ana Kampüs – Kandilli Kampüsü</li>
+                </ul>
+            </ul>
+            </p>
+            <p>Kandilli, Güney, Hisar, Kuzey ve Kilyos yerleşkeleri arasında, düzenlilik ve güvenilirlik ilkesiyle çalışan ücretsiz mekiklerin hareket saat ve yerlerine <a href="http://mekik.boun.edu.tr/" target="_blank">http://mekik.boun.edu.tr/</a> adresinden erişebilirsiniz.</p>
+        <!--
+	<p>Yaz okulumuz sırasında Beytepe Metro durağından Kültür Kongre Merkezi’ne, ve yurtlardan Kültür Kongre Merkezi’ne olmak üzere iki farklı ring servisi olacaktir. Sefer bilgileri asağıdaki gibidir:</p> --> 
+    <!--
+            <style>tbody > tr > td:first-child {
+                    text-align: left;
+                }
+            </style>
+            <table class="table table-bordered">
+                <tr>
+                    <th class="schedule-th schedule-th-fixed-width">Tarih</th>
+                    <th class="schedule-th schedule-th-fixed-width">Yön</th>
+                    <th class="schedule-th schedule-th-fixed-width">Saatler</th>
+                </tr>
+                <tr>
+                    <td rowspan="3" align="center">21 Ağustos</td>
+                    <td>Beytepe Metro durağından KKM’ye</td>
+                    <td>08:00 / 08:10 / 08: 20 / 08:30</td>
+                </tr>
+                <tr>
+                    <td>Yurtlardan KKM’ye</td>
+                    <td>08:00 / 08:15</td>
+                </tr>
+                <tr>
+                    <td>KKM’den yurtlara ve Beytepe metro durağına</td>
+                    <td>19:30 / 20:30</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">22 Ağustos</td>
+                    <td>Beytepe Metro durağından KKM’ye</td>
+                    <td>08:10 / 08: 20 / 08:30 / 08:40</td>
+                </tr>
+                <tr>
+                    <td>Yurtlardan KKM’ye</td>
+                    <td>08:15 / 08:30</td>
+                </tr>
+                <tr>
+                    <td>KKM’den yurtlara ve Beytepe metro durağına</td>
+                    <td>19:00 / 21:00</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">23 Ağustos</td>
+                    <td>Beytepe Metro durağından KKM’ye</td>
+                    <td>08:10 / 08: 20 / 08:30 / 08:40</td>
+                </tr>
+                <tr>
+                    <td>Yurtlardan KKM’ye</td>
+                    <td>08:15 / 08:30</td>
+                </tr>
+                <tr>
+                    <td>KKM’den yurtlara ve Beytepe metro durağına</td>
+                    <td>17:30</td>
+                </tr>
+                <tr>
+                    <td rowspan="3">24 Ağustos</td>
+                    <td>Beytepe Metro durağından KKM’ye</td>
+                    <td>08:10 / 08: 20 / 08:30 / 08:40</td>
+                </tr>
+                <tr>
+                    <td>Yurtlardan KKM’ye</td>
+                    <td>08:15 / 08:30</td>
+                </tr>
+                <tr>
+                    <td>KKM’den yurtlara ve Beytepe metro durağına</td>
+                    <td>12:30</td>
+                </tr>
+            </table> --> 
+        </div> 
+        <!-- /Ring -->
+    </div>
+</section>
+
+<!-- Duzenleyiciler -->
+<section id="duzenleyiciler" class="bg-white">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="color:#134b8e" >DÜZENLEYİCİLER</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="team-member">
+                    <a href="http://web.cs.hacettepe.edu.tr/~pinar/" target="_blank"><img src="img/pinarduygulu.png"
+                                                                                          class="img-responsive img-circle"
+                                                                                          alt=""></a>
+                    <h4><a href="http://web.cs.hacettepe.edu.tr/~pinar/" target="_blank">Pınar Duygulu Şahin</a></h4>
+                    <p class="text-muted">Hacettepe Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="team-member">
+                    <a href="http://web.cs.hacettepe.edu.tr/~aykut/" target="_blank"><img src="img/aykuterdem.png"
+                                                                                          class="img-responsive img-circle"
+                                                                                          alt=""></a>
+                    <h4><a href="http://web.cs.hacettepe.edu.tr/~aykut/" target="_blank">Aykut Erdem</a></h4>
+                    <p class="text-muted">Hacettepe Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="team-member">
+                    <a href="http://web.cs.hacettepe.edu.tr/~erkut/" target="_blank"><img src="img/erkuterdem.png"
+                                                                                          class="img-responsive img-circle"
+                                                                                          alt=""></a>
+                    <h4><a href="http://web.cs.hacettepe.edu.tr/~erkut/" target="_blank">Erkut Erdem</a></h4>
+                    <p class="text-muted">Hacettepe Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="team-member">
+                    <a href="http://web.cs.hacettepe.edu.tr/~nazli/" target="_blank"><img src="img/nazliikizler.png"
+                                                                                          class="img-responsive img-circle"
+                                                                                          alt=""></a>
+                    <h4><a href="http://web.cs.hacettepe.edu.tr/~nazli/" target="_blank">Nazlı İkizler Cinbiş</a></h4>
+                    <p class="text-muted">Hacettepe Üniversitesi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Duzenleyiciler -->
+<section id="danisma_kurulu" class="bg-dark-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="color:#134b8e">DANIŞMA KURULU</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3">
+            </div>
+            <div class="col-sm-3">
+                <div class="team-member">
+                    <a href="http://users.metu.edu.tr/alatan/" target="_blank"><img src="img/aydinalatan.png"
+                                                                                    class="img-responsive img-circle"
+                                                                                    alt=""></a>
+                    <h4><a href="http://users.metu.edu.tr/alatan/" target="_blank">Aydın Alatan</a></h4>
+                    <p class="text-muted">Orta Doğu Teknik Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="team-member">
+                    <a href="http://www.ee.boun.edu.tr/busim/B%C3%BClentSankur/tabid/956/language/en-US/Default.aspx"
+                       target="_blank"><img src="img/bulentsankur.png" class="img-responsive img-circle" alt=""></a>
+                    <h4><a href="http://www.ee.boun.edu.tr/busim/B%C3%BClentSankur/tabid/956/language/en-US/Default.aspx"
+                           target="_blank">Bülent Sankur</a></h4>
+                    <p class="text-muted">Boğaziçi Üniversitesi</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+            </div>
+</section>
+
+<!-- Duzenleyiciler -->
+<section id="sponsorlar">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading" style="color:#134b8e" >SPONSORLAR</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="http://www.hacettepeteknokent.com.tr" target="_blank"><img src="img/logos/hu_teknokent2.png"
+                                                                                    class="img-responsive img-sponsor"
+                                                                                    alt=""></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="https://www.stm.com.tr" target="_blank"><img src="img/logos/stm2.png"
+                                                                      class="img-responsive img-sponsor" alt=""></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="http://www.milsoft.com.tr" target="_blank"><img src="img/logos/milsoft2.png"
+                                                                         class="img-responsive img-sponsor" alt=""></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="http://www.arcelik.com.tr" target="_blank"><img src="img/logos/arcelik2.png"
+                                                                         class="img-responsive img-sponsor" alt=""></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="http://sentiosports.com" target="_blank"><img src="img/logos/sentio2.jpg"
+                                                                       class="img-responsive img-sponsor" alt=""></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="http://www.esensi.com.tr/tr/" target="_blank"><img src="img/logos/esen2.png"
+                                                                            class="img-responsive img-sponsor"
+                                                                            alt=""></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="http://www.sim-tek.com.tr" target="_blank"><img src="img/logos/simtek2.png"
+                                                                         class="img-responsive img-sponsor" alt=""></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="http://www.leomuhendislik.com" target="_blank"><img src="img/logos/leo2.png"
+                                                                             class="img-responsive img-sponsor" alt=""></a>
+            </div>
+            <div class="col-sm-4">
+                <a href="http://vispera.co" target="_blank"><img src="img/logos/vispera2.png"
+                                                                 class="img-responsive img-sponsor" alt=""></a>
+            </div>
+        </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <center>
+                    <span class="copyright"></span>
+                </center>
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/cbpAnimatedHeader.js"></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="js/agency.js"></script>
+
 </body>
+
 </html>
