@@ -457,7 +457,7 @@ header {
     width: 100%;
     height: 100%;
     background-attachment: scroll;
-    background: linear-gradient(rgba(222, 222, 222,.1), rgba(222, 222, 222,.1)), url("../img/bogaz.jpg");
+    background: linear-gradient(rgba(2, 2, 2,.3), rgba(2, 2, 2,.3)), url("../img/bogaz.jpg");
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
