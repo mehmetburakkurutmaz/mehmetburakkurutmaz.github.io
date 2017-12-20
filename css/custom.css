@@ -188,6 +188,13 @@ h4 {
     margin: 0 auto;
 }
 
+.img-circle {
+    object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
+    object-position: center; /* Center the image within the element */
+    height: 130px;
+    width: 130px;
+}
+
 .row {
 	margin: 0;
 	padding: 0;
