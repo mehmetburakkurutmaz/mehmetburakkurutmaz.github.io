@@ -189,17 +189,16 @@ h4 {
 }
 
 .img-logo {
-    object-fit:contain;
-    max-height: 100%;
-    width: auto;
-    height: auto;
+    max-width: 75%;
 }
 
 .img-circle {
     object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
     object-position: center; /* Center the image within the element */
-    height: 130px;
-    width: 130px;
+    max-width: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 .row {
