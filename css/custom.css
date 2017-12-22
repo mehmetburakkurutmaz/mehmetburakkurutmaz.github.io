@@ -196,8 +196,8 @@ h4 {
     object-fit: cover;       /* Scale the image so it covers whole area, thus will likely crop */
     object-position: center; /* Center the image within the element */
     max-width: 100%;
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
     border-radius: 50%;
 }
 
@@ -857,11 +857,11 @@ section h4.section-subheading {
 }
 
 .img-responsive {
-	max-width:50%
+	max-width:50%;
 }
 
 .img-sponsor {
-	max-width:75%
+	max-width:75%;
 }
 	
 .team-member img {
