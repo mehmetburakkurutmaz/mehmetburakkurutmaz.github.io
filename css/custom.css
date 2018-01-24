@@ -556,7 +556,7 @@ section {
 
 section h2.section-heading {
     margin-top: 32px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 36px;
     font-family: "Fira Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 500;
@@ -567,7 +567,8 @@ section h3.section-subheading {
     font-family: "Fira Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 24px;
     font-weight: 200;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 section h4.section-subheading {
@@ -575,7 +576,7 @@ section h4.section-subheading {
     font-family: "Fira Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 20px;
     font-weight: 200;
-    margin-top: -40px;
+    margin-top: -10px;
 	margin-bottom: 40px;
 }
 
@@ -1148,26 +1149,32 @@ ul.social-buttons li a:active {
 /*syllabus*/
 
 
-table {
+/*table {
     margin-right: auto;
     margin-left: auto;
     text-align: left;
 
-    border-bottom: 5px solid;
-    border: 20px solid #fff;
+    //border-bottom: 5px solid;
+    //border: 20px solid #fff;
     //border-color: 993333;
     //border-spacing: 0.0;
     //box-shadow: 0px 0px 7px 7px #999999;
 
-}
+}*/
 
 
-td {
+/*td {
   padding-left:   20px;
   padding-top:    10px;
   padding-bottom: 10px;
   padding-right:  20px;
+  text-align: left;
 
+}*/
+.important-dates td{
+font-family: "HKGroteskRegular","Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 18px;
+padding:0 15px 0 15px;
 }
 
 table a
@@ -1186,14 +1193,13 @@ thead > tr {
 }
 
 
-//#CFCFCF
-tbody > tr:nth-child(even) {background-color: #f7f7f7;}
-tbody > tr:nth-child(odd) {background-color: #ECECEC;}
+/*tbody > tr:nth-child(even) {background-color: #f7f7f7;}
+tbody > tr:nth-child(odd) {background-color: #ECECEC;}*/
 
 
-tbody > tr > td:first-child {
+/*tbody > tr > td:first-child {
     text-align: center;
-}
+}*/
 
 
 .google_form {
