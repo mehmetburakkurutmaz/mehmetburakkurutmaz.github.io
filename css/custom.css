@@ -156,15 +156,15 @@ a.active {
 
 .timeTableCircle_ml{color:#8D6A9F}
 
-.timeTableCircle_rb{color:#AFD2E9}
+.timeTableCircle_bio{color:#CF3476}
 
-.timeTableCircle_cv{color:#9AD5CA}
+.timeTableCircle_sp{color:#9AD5CA}
 
 .timeTableCircle_pl{color:#FBBA72}
 
-.timeTableCircle_in{color:#0F2470}
+.timeTableCircle_nlp{color:#0F2470}
 
-.timeTableCircle_sc{color:#F2E86D}
+.timeTableCircle_soc{color:#F2E86D}
 
 
 h1,
@@ -1192,6 +1192,9 @@ thead > tr {
     background-color: #222;
 }
 
+ul .disabled {
+    pointer-events: none;
+}
 
 /*tbody > tr:nth-child(even) {background-color: #f7f7f7;}
 tbody > tr:nth-child(odd) {background-color: #ECECEC;}*/
