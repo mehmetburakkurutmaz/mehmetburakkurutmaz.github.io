@@ -164,8 +164,7 @@ a.active {
 
 .timeTableCircle_nlp{color:#0F2470}
 
-.timeTableCircle_soc{color:#FFBF00}
-
+.timeTableCircle_soc{color:#FFBF00} 
 
 h1,
 h2,
@@ -230,56 +229,67 @@ h4 {
 }
 
 .bg-white{
+	width: 100%;
     background-color: #ffffff;
 }
 
 .bg-light-gray {
+	width: 100%;
     background-color: #f7f7f7;
 }
 
 .bg-dark-gray {
+	width: 100%;
     background-color: #f0f0f0;
 }
 
 .bg-green {
+	width: 100%;
     background-color: #2cabe2;
 }
 
 .bg-light-green {
+	width: 100%;
     background-color: #d6ebe2;
 }
 
-
-
 .bg-blue {
+	width: 100%;
 	background-color: #2cabe2;
 }
 
 .bg-light-blue {
+	width: 100%;
     background-color: #d1d8da;
 }
 
 .bg-yellow {
+	width: 100%;
 	background-color: #f1c17f;
 }
 
 .bg-light-yellow {
+	width: 100%;
 	background-color: #ffffeb;
 }
 
 .bg-pink {
+	width: 100%;
 	background-color: #de9dc9;
 }
 
 .bg-light-orange {
+	width: 100%;
     background-color: #f4b9a1;
 }
 
 .bg-red {
+	width: 100%;
     background-color: #ff8d60;
 }
 
 .bg-darkest-gray {
+	width: 100%;
     background-color: #333;
 }
 
