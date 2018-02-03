@@ -16,6 +16,10 @@ body {
     font-family: "HKGroteskRegular","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+.vertical-center {
+    vertical-align: middle !important;
+}
+
 .btn-danger,
 .btn-danger.disabled,
 .btn-danger:active,
