@@ -153,6 +153,9 @@ a.active {
     background-color: #f7f7f7;
     width: 44px !important
 }
+.table-bordered {
+table-layout: auto;
+}
 
 .table-bordered th,
 .table-bordered td {
@@ -208,24 +211,33 @@ h4 {
     margin: 0 auto;
 }
 
+.img-organization {
+    max-height: 130px;
+    max-width: 95%;
+    width: auto;
+    margin: 2%;
+}
+
 .img-logo {
     max-width: 75%;
 }
 
 .img-place {
     max-height: 400px;
+    max-width: 100%;
     width: auto;
-    margin: 5%;
+    margin: 3%;
 }
 
 .img-sponsor {
     max-height: 150px;
-    max-width: 400px;
+    max-width: 98%;
     width: auto;
     position: relative;
     transform: translatey(-50%);
     top: 50%;
     padding-top: 50px;
+    margin: 2%;
 }
 
 .img-circle {
