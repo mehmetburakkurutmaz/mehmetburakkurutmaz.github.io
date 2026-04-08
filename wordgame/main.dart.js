@@ -101755,7 +101755,8 @@ $S:639}
 A.aF3.prototype={
 $4(a,b,c,d){var s,r=null,q=this.a
 if(b!==q.d)return r
-s=q.a.c.a[b]
+q=q.a.c.a
+s=q.length>b?q[b]:0
 q=s===1?"game":"games"
 return new A.vd(""+s+" "+q,A.hK(r,r,r,r,r,r,r,r,"MarkerNotes",r,r,12,r,r,B.bz,r,r,!0,r,r,r,r,r,r,r,r))},
 $C:"$4",
