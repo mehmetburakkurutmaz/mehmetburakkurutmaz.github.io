@@ -806,6 +806,7 @@ class CompiledApp {
       _3910: x0 => x0.localStorage,
       _4243: x0 => x0.length,
       _5629: x0 => x0.destination,
+      _5633: x0 => x0.state,
       _5723: (x0,x1) => { x0.value = x1 },
       _5759: (x0,x1) => { x0.buffer = x1 },
       _5872: x0 => x0.gain,
