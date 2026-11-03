@@ -1550,3 +1550,9 @@ app.*.map.json
 
 !lib/
 !scripts/
+
+# Deployed Flutter web builds: their generated JS (the JS fallback that Safari
+# and Firefox load) and plugin assets under assets/packages/ must be committed.
+!/wordplay/**/*.js
+!/wordplay/assets/packages/
+!/wordplay/assets/packages/**
