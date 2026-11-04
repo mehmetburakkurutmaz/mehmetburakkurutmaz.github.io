@@ -1,6 +1,6 @@
 {
-    "name": "Word Quiz",
-    "short_name": "Word Quiz",
+    "name": "Wordplay",
+    "short_name": "Wordplay",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FD7FA9",
